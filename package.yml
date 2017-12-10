@@ -1,0 +1,16 @@
+name       : adapta-kde
+version    : 20171109
+release    : 1
+source     :
+    - https://github.com/PapirusDevelopmentTeam/adapta-kde/archive/20171109.tar.gz : 35d8f314ecbb9a44e23b88d18ec953e871e21fb5c7f13e80ad4d0d1a18b1e969
+license    : GPL-3.0
+component  : desktop.theme
+summary    : Adapta KDE customization
+rundeps    :
+    - kvantum
+description: |
+    This is a port of the popular GTK theme Adapta for Plasma 5 desktop with a few additions and extras.
+build      : |
+    %make
+install    : |
+    %make_install
