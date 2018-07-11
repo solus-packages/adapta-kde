@@ -2,10 +2,10 @@
     <Source>
         <Name>adapta-kde</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>desktop.theme</PartOf>
         <Summary xml:lang="en">Adapta KDE customization</Summary>
         <Description xml:lang="en">This is a port of the popular GTK theme Adapta for Plasma 5 desktop with a few additions and extras.
@@ -30,8 +30,11 @@
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/AUTHORS</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/Adaptarc</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/LICENSE</Path>
+            <Path fileType="data">/usr/share/aurorae/themes/Adapta/alldesktops.svg</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/close.svg</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/decoration.svg</Path>
+            <Path fileType="data">/usr/share/aurorae/themes/Adapta/keepabove.svg</Path>
+            <Path fileType="data">/usr/share/aurorae/themes/Adapta/keepbelow.svg</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/maximize.svg</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/metadata.desktop</Path>
             <Path fileType="data">/usr/share/aurorae/themes/Adapta/minimize.svg</Path>
@@ -43,6 +46,8 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/LICENSE</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/colors</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/dialogs/background.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/TeamViewer.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/accessories.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/akonadi.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/akregator.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/amarok.svg</Path>
@@ -61,8 +66,12 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/document.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/drive.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/edit.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/emblem.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/face.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/go.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/image.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/input.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/internet.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/juk.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kaffeine.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kalarm.svg</Path>
@@ -79,18 +88,20 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/konversation.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kopete.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/korgac.svg</Path>
-            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kpackagekit.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kruler.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kteatime.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/ktorrent.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kup.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/list.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/mail.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/media.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/nepomuk.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/network.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/notification.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/office.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/osd.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/phone.svg</Path>
-            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/plasma-networkmanagement2.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/plasma.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/plasmavault-error.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/plasmavault.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/preferences.svg</Path>
@@ -98,14 +109,15 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/qbittorrent.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/quassel.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/quota.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/ring.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/slc.svg</Path>
-            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/software-updates.svg</Path>
-            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/software.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/start.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/system.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/tools.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/touchpad.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/update.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/user.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/utilities.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/video.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/view.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/vlc.svg</Path>
@@ -113,6 +125,7 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/window.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/zoom.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/metadata.desktop</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/widgets/action-overlays.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/widgets/actionbutton.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/widgets/arrows.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/widgets/background.svg</Path>
@@ -150,13 +163,11 @@
             <Path fileType="data">/usr/share/plasma/look-and-feel/com.github.varlesh.adapta/metadata.desktop</Path>
             <Path fileType="data">/usr/share/wallpapers/Adapta/AUTHORS</Path>
             <Path fileType="data">/usr/share/wallpapers/Adapta/LICENSE</Path>
-            <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/1920x1080.png</Path>
-            <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/1920x1200.png</Path>
-            <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/2560x1440.png</Path>
-            <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/2560x1600.png</Path>
             <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/3840x2160.png</Path>
+            <Path fileType="data">/usr/share/wallpapers/Adapta/contents/images/3840x2400.png</Path>
             <Path fileType="data">/usr/share/wallpapers/Adapta/contents/screenshot.jpg</Path>
             <Path fileType="data">/usr/share/wallpapers/Adapta/metadata.desktop</Path>
+            <Path fileType="data">/usr/share/wallpapers/src/mountain.svg</Path>
             <Path fileType="data">/usr/share/yakuake/skins/adapta-nokto/AUTHORS</Path>
             <Path fileType="data">/usr/share/yakuake/skins/adapta-nokto/LICENSE</Path>
             <Path fileType="data">/usr/share/yakuake/skins/adapta-nokto/icon.png</Path>
@@ -218,12 +229,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-12-10</Date>
-            <Version>20171109</Version>
+        <Update release="2">
+            <Date>2018-06-28</Date>
+            <Version>20180618</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
         </Update>
     </History>
 </PISI>
