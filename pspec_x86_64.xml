@@ -53,6 +53,7 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/amarok.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/applications.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/apport.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/audacious.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/audio.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/battery.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/bookmarks.svg</Path>
@@ -88,16 +89,22 @@
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/konversation.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kopete.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/korgac.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/krfb.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kruler.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/krusader_root.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/krusader_user.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kteatime.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/ktorrent.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/kup.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/list.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/mail.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/manjaro.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/media.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/mellowplayer.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/nepomuk.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/network.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/notification.svg</Path>
+            <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/nulloy.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/office.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/osd.svg</Path>
             <Path fileType="data">/usr/share/plasma/desktoptheme/Adapta/icons/phone.svg</Path>
@@ -229,9 +236,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-06-28</Date>
-            <Version>20180618</Version>
+        <Update release="3">
+            <Date>2018-09-26</Date>
+            <Version>20180828</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Berthault</Name>
             <Email>justin.berthault@zaclys.net</Email>

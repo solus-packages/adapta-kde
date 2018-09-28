@@ -1,8 +1,8 @@
 name       : adapta-kde
-version    : '20180618'
-release    : 2
+version    : '20180828'
+release    : 3
 source     :
-    - https://github.com/PapirusDevelopmentTeam/adapta-kde/archive/20180618.tar.gz : 33a23e4fe7f2ed0c3e7f6ef57694d56aa6961d384306ccf5aea56777eb2b094a
+    - https://github.com/PapirusDevelopmentTeam/adapta-kde/archive/20180828.tar.gz : 7e55f4ed5c962c86d12b510bddcae1ac0018ffc95344e0b68218a98701907bdc
 license    : GPL-3.0-or-later
 component  : desktop.theme
 summary    : Adapta KDE customization
